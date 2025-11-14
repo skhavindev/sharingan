@@ -13,8 +13,8 @@ def read_readme():
 
 setup(
     name="sharingan-core",
-    version="0.2.0",
-    author="Sharingan Contributors",
+    version="v3.0.0",
+    author="S Khavin",
     author_email="",
     description="Semantic Video Understanding with Temporal Reasoning",
     long_description=read_readme(),
