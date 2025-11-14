@@ -19,7 +19,7 @@ setup(
     description="Semantic Video Understanding with Temporal Reasoning",
     long_description=read_readme(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/sharingan",  # Update with your GitHub URL
+    url="https://github.com/skhavindev/sharingan",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
