@@ -47,7 +47,7 @@ uploads/
 *.mov
 *.mkv
 test_video.*
-
+.kiro
 # OS
 .DS_Store
 Thumbs.db
