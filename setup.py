@@ -49,9 +49,6 @@ setup(
         "werkzeug>=2.0.0",
     ],
     extras_require={
-        "clip": [
-            "git+https://github.com/openai/CLIP.git",
-        ],
         "smolvlm": [
             "transformers>=4.35.0",
             "accelerate>=0.20.0",
@@ -62,7 +59,6 @@ setup(
             "accelerate>=0.20.0",
         ],
         "all": [
-            "git+https://github.com/openai/CLIP.git",
             "transformers>=4.35.0",
             "bitsandbytes>=0.41.0",
             "accelerate>=0.20.0",
