@@ -2,7 +2,7 @@
 
 **Author:** S. Khavin
 **Project:** *Sharingan: A Unified Framework for Fast, Open, and Context-Aware Video Understanding*
-**Affiliation:** Independent Researcher, Builder of TextFusion.ai
+**Affiliation:** Student researcher
 
 ---
 

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sharingan-core"
-version = "0.1.0"
+version = "3.0.0"
 description = "OpenCV for Semantic Video Understanding with Temporal Reasoning"
 readme = "README.md"
 requires-python = ">=3.8"

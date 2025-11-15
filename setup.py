@@ -12,8 +12,8 @@ def read_readme():
     return "Sharingan: Semantic Video Understanding with Temporal Reasoning"
 
 setup(
-    name="sharingan",
-    version="0.1.0",
+    name="sharingan-core",
+    version="3.0.0",
     author="S Khavin",
     author_email="",
     description="Semantic Video Understanding with Temporal Reasoning",
