@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT"}
 authors = [
-    {name = "Sharingan Contributors"}
+    {name = "S Khavin, Sharingan Contributors"}
 ]
 keywords = ["video", "computer-vision", "vlm", "temporal-reasoning", "semantic-understanding"]
 classifiers = [
