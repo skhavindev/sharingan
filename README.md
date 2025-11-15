@@ -144,7 +144,7 @@ response = processor.chat('Describe main events', use_llm=True)
 | CLIP    | ⚡⚡⚡   | 400MB  | Good      |
 | SmolVLM | ⚡⚡    | 538MB  | Excellent |
 
-*Tested on NVIDIA RTX 3060 (4GB VRAM)*
+*Tested on NVIDIA RTX 3050 (4GB VRAM)*
 
 ---
 
