@@ -72,7 +72,7 @@ setup(
     },
     entry_points={
         "console_scripts": [
-            "sharingan=sharingan.cli:main",
+            "sharingan-core=sharingan.cli:main",
         ],
     },
     include_package_data=True,

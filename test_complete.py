@@ -14,7 +14,7 @@ def test_basic_processing():
     print("TEST 1: Basic Video Processing (CLIP)")
     print("="*60)
     
-    from sharingan.video import VideoProcessor
+    from sharingan import VideoProcessor
     
     # Initialize processor with CLIP (fast)
     processor = VideoProcessor(
@@ -37,7 +37,7 @@ def test_smolvlm_processing():
     print("TEST 2: SmolVLM Processing (Detailed Descriptions)")
     print("="*60)
     
-    from sharingan.video import VideoProcessor
+    from sharingan import VideoProcessor
     
     # Initialize with SmolVLM (detailed)
     processor = VideoProcessor(
@@ -57,7 +57,7 @@ def test_semantic_search():
     print("TEST 3: Semantic Search")
     print("="*60)
     
-    from sharingan.video import VideoProcessor
+    from sharingan import VideoProcessor
     
     processor = VideoProcessor(vlm_model='clip')
     processor.process('test_video.mp4')
@@ -82,7 +82,7 @@ def test_ai_chat():
     print("TEST 4: AI Chat (Qwen2.5)")
     print("="*60)
     
-    from sharingan.video import VideoProcessor
+    from sharingan import VideoProcessor
     
     processor = VideoProcessor(vlm_model='clip')
     processor.process('test_video.mp4')
@@ -106,7 +106,7 @@ def test_temporal_reasoning():
     print("TEST 5: Temporal Reasoning")
     print("="*60)
     
-    from sharingan.video import VideoProcessor
+    from sharingan import VideoProcessor
     
     # Enable temporal reasoning
     processor = VideoProcessor(
@@ -127,7 +127,7 @@ def test_event_detection():
     print("TEST 6: Event Detection")
     print("="*60)
     
-    from sharingan.video import VideoProcessor
+    from sharingan import VideoProcessor
     from sharingan.events import EventDetector
     
     processor = VideoProcessor(vlm_model='clip')
@@ -228,7 +228,7 @@ def test_all_options():
     print("TEST 10: All Available Options")
     print("="*60)
     
-    from sharingan.video import VideoProcessor
+    from sharingan import VideoProcessor
     
     # Show all options
     processor = VideoProcessor(

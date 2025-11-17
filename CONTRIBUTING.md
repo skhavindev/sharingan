@@ -6,7 +6,7 @@ Thank you for your interest in contributing to Sharingan!
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/sharingan.git
+git clone https://github.com/skhavindev/sharingan/
 cd sharingan
 ```
 

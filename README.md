@@ -65,7 +65,14 @@ print(response)
 ### Web UI
 
 ```bash
+# Using CLI command
+sharingan-core ui
+
+# Or using module (alternative)
 python -m sharingan.cli ui
+
+# Custom port
+sharingan-core ui --port 8080
 ```
 
 Or programmatically:
